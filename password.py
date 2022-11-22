@@ -8,7 +8,7 @@ def main():
 
 def bits(pos):
     bits = math.log2(pos)
-    return round(bits)
+    return math.floor(bits)
 
 def combinations(pswd):
     combos = 0
